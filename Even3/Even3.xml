@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Even3</name>
+    </assembly>
+    <members>
+        <member name="T:Even3.Commands.MainCommand">
+            <summary>
+            MainCommnd class
+            </summary>
+        </member>
+        <member name="M:Even3.Commands.MainCommand.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Even3.Commands.MainCommand"/> class.
+            </summary>
+        </member>
+        <member name="M:Even3.Commands.MainCommand.SolutionOne">
+            <summary>
+            Solutions the one.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Even3.Commands.MainCommand.SolutionTwo">
+            <summary>
+            Solutions the two.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Even3.Commands.MainCommand.SolutionThree(Even3.Entities.SolutionThreeRequest)">
+            <summary>
+            Solutions the three.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Even3.Commands.MainCommand.Rotate(System.Collections.Generic.List{Even3.Entities.Passenger},System.Int32)">
+            <summary>
+            Rotates the specified sequence.
+            </summary>
+            <param name="sequence">The sequence.</param>
+            <param name="count">The count.</param>
+        </member>
+        <member name="M:Even3.Commands.MainCommand.Permutate(System.Collections.Generic.List{Even3.Entities.Passenger},System.Int32)">
+            <summary>
+            Permutates the specified pax list.
+            </summary>
+            <param name="paxList">The pax list.</param>
+            <param name="count">The count.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Even3.Commands.MainCommand.GetPassengersInRoute(Even3.Entities.Passenger,System.Collections.Generic.List{Even3.Entities.Passenger},System.Boolean)">
+            <summary>
+            Gets the passengers in route.
+            </summary>
+            <param name="pax">The pax.</param>
+            <param name="passengers">The passengers.</param>
+            <param name="isAscending">if set to <c>true</c> [is ascending].</param>
+            <returns></returns>
+        </member>
+        <member name="T:Even3.Controllers.MainController">
+            <summary>
+            Main Controller
+            </summary>
+            <seealso cref="T:Microsoft.AspNetCore.Mvc.ControllerBase" />
+        </member>
+        <member name="M:Even3.Controllers.MainController.SolutionOne">
+            <summary>
+            Action referente a solução 1 da terceira questão.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Even3.Controllers.MainController.SolutionTwo">
+            <summary>
+            Action referente a solução 2 da terceira questão.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Even3.Controllers.MainController.SolutionThree(Even3.Entities.SolutionThreeRequest)">
+            <summary>
+            Action referente a solução 3 da terceira questão.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Even3.Entities.Elevator">
+            <summary>
+            Elevator class
+            </summary>
+        </member>
+        <member name="M:Even3.Entities.Elevator.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Even3.Entities.Elevator" /> class.
+            </summary>
+            <param name="topFloor">The top floor.</param>
+            <param name="starterFloor">The starter floor.</param>
+        </member>
+        <member name="P:Even3.Entities.Elevator.TopFloor">
+            <summary>
+            Gets or sets the top floor.
+            </summary>
+            <value>
+            The top floor.
+            </value>
+        </member>
+        <member name="P:Even3.Entities.Elevator.CurrentFloor">
+            <summary>
+            Gets or sets the current floor.
+            </summary>
+            <value>
+            The current floor.
+            </value>
+        </member>
+        <member name="P:Even3.Entities.Elevator.StarterFloor">
+            <summary>
+            Gets or sets the starter floor.
+            </summary>
+            <value>
+            The starter floor.
+            </value>
+        </member>
+        <member name="P:Even3.Entities.Elevator.Ascending">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:Even3.Entities.Elevator"/> is ascending.
+            </summary>
+            <value>
+              <c>true</c> if ascending; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Even3.Entities.Elevator.TravelledDistance">
+            <summary>
+            Gets or sets the travelled distance.
+            </summary>
+            <value>
+            The travelled distance.
+            </value>
+        </member>
+        <member name="P:Even3.Entities.Elevator.Distance">
+            <summary>
+            Gets or sets the distance.
+            </summary>
+            <value>
+            The distance.
+            </value>
+        </member>
+        <member name="M:Even3.Entities.Elevator.GoTo(System.Int32)">
+            <summary>
+            Goes to.
+            </summary>
+            <param name="destinationFloor">The destination floor.</param>
+        </member>
+        <member name="M:Even3.Entities.Elevator.ResetCount">
+            <summary>
+            Resets the count.
+            </summary>
+        </member>
+        <member name="T:Even3.Entities.Passenger">
+            <summary>
+            Passenger class
+            </summary>
+        </member>
+        <member name="M:Even3.Entities.Passenger.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Even3.Entities.Passenger" /> class.
+            </summary>
+            <param name="currentFloor">The current floor.</param>
+            <param name="destionationFloor">The destionation floor.</param>
+        </member>
+        <member name="P:Even3.Entities.Passenger.CurrentFloor">
+            <summary>
+            Gets or sets the current floor.
+            </summary>
+            <value>
+            The current floor.
+            </value>
+        </member>
+        <member name="P:Even3.Entities.Passenger.DestionationFloor">
+            <summary>
+            Gets or sets the destionation floor.
+            </summary>
+            <value>
+            The destionation floor.
+            </value>
+        </member>
+        <member name="P:Even3.Entities.Passenger.Ascending">
+            <summary>
+            Gets a value indicating whether this <see cref="T:Even3.Entities.Passenger" /> is ascending.
+            </summary>
+            <value>
+              <c>true</c> if ascending; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:Even3.Entities.SolutionResponse">
+            <summary>
+            SolutionResponse class
+            </summary>
+        </member>
+        <member name="P:Even3.Entities.SolutionResponse.ShorterTravelledDistance">
+            <summary>
+            Gets or sets the travelled distance.
+            </summary>
+            <value>
+            The travelled distance.
+            </value>
+        </member>
+        <member name="T:Even3.Entities.SolutionThreeRequest">
+            <summary>
+            SolutionThreeRequest class
+            </summary>
+        </member>
+        <member name="P:Even3.Entities.SolutionThreeRequest.Passengers">
+            <summary>
+            Gets or sets the passengers.
+            </summary>
+            <value>
+            The passengers.
+            </value>
+        </member>
+        <member name="P:Even3.Entities.SolutionThreeRequest.Elevator">
+            <summary>
+            Gets or sets the elevator.
+            </summary>
+            <value>
+            The elevator.
+            </value>
+        </member>
+        <member name="T:Even3.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Even3.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Even3.Startup"/> class.
+            </summary>
+            <param name="configuration">The configuration.</param>
+        </member>
+        <member name="M:Even3.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configures the services.
+            </summary>
+            <param name="services">The services.</param>
+        </member>
+        <member name="M:Even3.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Configures the specified application.
+            </summary>
+            <param name="app">The application.</param>
+            <param name="env">The env.</param>
+        </member>
+    </members>
+</doc>

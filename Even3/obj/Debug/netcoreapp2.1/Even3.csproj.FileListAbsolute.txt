@@ -1,0 +1,15 @@
+C:\Users\55819\source\repos\Even3\Even3\bin\Debug\netcoreapp2.1\Even3.deps.json
+C:\Users\55819\source\repos\Even3\Even3\bin\Debug\netcoreapp2.1\Even3.runtimeconfig.json
+C:\Users\55819\source\repos\Even3\Even3\bin\Debug\netcoreapp2.1\Even3.runtimeconfig.dev.json
+C:\Users\55819\source\repos\Even3\Even3\bin\Debug\netcoreapp2.1\Even3.dll
+C:\Users\55819\source\repos\Even3\Even3\bin\Debug\netcoreapp2.1\Even3.pdb
+C:\Users\55819\source\repos\Even3\Even3\obj\Debug\netcoreapp2.1\Even3.csprojAssemblyReference.cache
+C:\Users\55819\source\repos\Even3\Even3\obj\Debug\netcoreapp2.1\Even3.csproj.CoreCompileInputs.cache
+C:\Users\55819\source\repos\Even3\Even3\obj\Debug\netcoreapp2.1\Even3.RazorAssemblyInfo.cache
+C:\Users\55819\source\repos\Even3\Even3\obj\Debug\netcoreapp2.1\Even3.RazorAssemblyInfo.cs
+C:\Users\55819\source\repos\Even3\Even3\obj\Debug\netcoreapp2.1\Even3.AssemblyInfoInputs.cache
+C:\Users\55819\source\repos\Even3\Even3\obj\Debug\netcoreapp2.1\Even3.AssemblyInfo.cs
+C:\Users\55819\source\repos\Even3\Even3\obj\Debug\netcoreapp2.1\Even3.RazorTargetAssemblyInfo.cache
+C:\Users\55819\source\repos\Even3\Even3\obj\Debug\netcoreapp2.1\Even3.dll
+C:\Users\55819\source\repos\Even3\Even3\obj\Debug\netcoreapp2.1\Even3.pdb
+C:\Users\55819\source\repos\Even3\Even3\bin\Debug\netcoreapp2.1\Even3.xml
